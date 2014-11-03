@@ -1,6 +1,6 @@
 package com.player03.markdownparser;
 
-import openfl.text.TextField;
+import flash.text.TextField;
 
 /**
  * @author Joseph Cloutier

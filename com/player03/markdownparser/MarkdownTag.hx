@@ -1,6 +1,6 @@
 package com.player03.markdownparser;
 
-import openfl.text.TextFormat;
+import flash.text.TextFormat;
 
 /**
  * @author Joseph Cloutier

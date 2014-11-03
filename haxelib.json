@@ -1,9 +1,8 @@
 {
 	"name":"MarkdownParser",
 	"license":"MIT",
-	"description":"An incomplete Markdown parser for OpenFL.",
+	"description":"An incomplete Markdown parser for Flash+Haxe.",
 	"contributors":["player_03"],
 	"version":"0.0.1",
-	"url":"https://github.com/player-03/MarkdownParser",
-	"dependencies":{"openfl":""}
+	"url":"https://github.com/player-03/MarkdownParser"
 }
