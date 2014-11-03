@@ -8,10 +8,10 @@ import flash.text.TextFormat;
 class MarkdownParser {
 	public static var defaultTags:Array<MarkdownTag> = [
 		new LinkTag(),
-		new MarkdownTag("bold", "\\*\\*(.+)\\*\\*", new TextFormat(null, null, null, true)),
-		new MarkdownTag("bold", "__(.+)__", new TextFormat(null, null, null, true)),
-		new MarkdownTag("italics", "_(.+)_", new TextFormat(null, null, null, null, true)),
-		new MarkdownTag("italics", "\\*(.+)\\*", new TextFormat(null, null, null, null, true))
+		new MarkdownTag("bold", "\\*\\*(.+?)\\*\\*", new TextFormat(null, null, null, true)),
+		new MarkdownTag("bold", "__(.+?)__", new TextFormat(null, null, null, true)),
+		new MarkdownTag("italics", "_(.+?)_", new TextFormat(null, null, null, null, true)),
+		new MarkdownTag("italics", "\\*(.+?)\\*", new TextFormat(null, null, null, null, true))
 	];
 	
 	private var tags:Array<MarkdownTag>;
