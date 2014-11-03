@@ -12,6 +12,7 @@ class MarkdownTag {
 	public var extraGroups:Int;
 	
 	public function new(name:String, pattern:String, format:TextFormat, extraGroups:Int = 0) {
+		this.name = name;
 		matcher = new EReg(pattern, "i");
 		this.format = format;
 	}
